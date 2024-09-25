@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;    
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.container{
+    display: block;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    margin: 100px 100px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 325px;
+}
+
+.profile{
+    background-color: rgba(138, 74, 222, 0.531);
+    border-radius: 13px 13px 0px 0px;
+    opacity: 1.2;
+}
+.profile img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    left: 52px;
+    top: 22px;
+    border: 2px solid rgba(138, 74, 222, 0.531);
+    box-shadow: 2px 2px 2px rgba(138, 74, 222, 0.531);
+}
+.text{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text p{
+    margin-top: -32px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons img{
+    margin-left: 12px;
+}
+
+.icons #fb:hover{
+    margin-left: 12px;
+    scale: 1.1;
+}
+
+.icons #ig:hover{
+    margin-left: 12px;
+    scale: 1.1;
+}
+
+.icons #in:hover{
+    margin-left: 12px;
+    scale: 1.1;
+}
+
+.icons #st:hover{
+    margin-left: 12px;
+    scale: 1.1;
+}
+
+
+.icons img{
+    margin-left: 12px;
+}
+
+.buttons button{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 5px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    left: 95px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.buttons button:hover{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 5px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    left: 95px;
+    margin-top: 25px;
+    margin-right: 10px;
+    scale: 1.1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.reactions #like{
+    background-color: lightslategray;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.reactions #comment{
+    background-color: lightslategray;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.reactions #share{
+    background-color: lightslategray;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.reactions p{
+    display: inline-block;
+    padding-right: 12px;
+}
+
+.reactions{
+    position: relative;
+    display: inline;
+    left: 85px;
+    top: 12px;
+    background-color: wheat;
+    border-radius: 12px;
+}
+
+
+.text, .icons, .buttons{
+    background-color: rgba(112, 78, 156, 0.849);
+    padding: 22px 0px;
+}
+
+
+.auto{
+    color: hsl(60, 68%, 60%);
+    font-weight: bold;
+}
